@@ -1,0 +1,21 @@
+.newButton {
+  padding: 4px 28px;
+  cursor: pointer;
+  border: none;
+  background-color: #E3EEFC;
+  color: #397BF7;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  img {
+    margin-right: 4px;
+  }
+
+  p {
+    margin: 5px;
+  }
+}
+
+

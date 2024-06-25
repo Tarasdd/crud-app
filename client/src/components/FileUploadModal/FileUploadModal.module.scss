@@ -1,0 +1,50 @@
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.spinner {
+  text-align: center;
+  font-size: 18px;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+
+.uploadButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #E3EEFC;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

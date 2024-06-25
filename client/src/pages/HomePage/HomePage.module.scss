@@ -1,0 +1,129 @@
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+.controls {
+  width: 85%;
+  margin: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.gridContainer {
+  margin: 0px auto;
+  width: 80%;
+}
+
+.deleteSelectedButton {
+  position: absolute;
+  left: 180px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.deleteControl {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 25px;
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  button {
+    position: absolute;
+    left: 15%;
+  }
+  
+  .itemCount {
+    position: absolute;
+    right: 15%;
+    color: #397BF7;
+  }
+
+  .trash {
+    position: absolute;
+  }
+}
+
+//Projects styles
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.gridItem {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+  width: 325px;
+  height: 217px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto 1fr auto;
+}
+
+.itemName {
+  position:absolute;
+  bottom: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  align-self: end;
+  justify-self: start;
+  grid-row: 3;
+  grid-column: 1 / span 3;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-row: 1;
+  grid-column: 1 / span 3;
+}
+
+.checkbox {
+  align-self: start;
+}
+
+.editButton, .deleteButton {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 24px;
+  cursor: pointer;
+  align-self: start;
+  justify-self: end;
+}
+
+.editButton {
+  position: absolute;
+  top: 5px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+// .deleteButton {
+//   position: absolute;
+//   top: 16px;
+//   right: 16px;
+//   background: none;
+//   border: none;
+//   font-size: 24px;
+//   cursor: pointer;
+// }
+

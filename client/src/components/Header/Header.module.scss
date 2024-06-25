@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 98%;
+  background-color: #E3EEFC;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+}
+
+.account, .options {
+  margin-right: 20px;
+  cursor: pointer;
+}
